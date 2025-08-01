@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
 import styles from './home.style'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { Fontisto, Ionicons } from '@expo/vector-icons';
-import Welcome from '../constants/components/home/Welcome';
+import { Welcome } from '../components'
 
 const Home = () => {
   return (
