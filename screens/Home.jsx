@@ -11,9 +11,9 @@ const Home = () => {
         <View style={styles.appBar}>
           <Ionicons name='location-outline' size={24} />
           <Text style={styles.location}> Shanghai China</Text>
-          <View style={{ }}>
+          <View style={{  flexDirection: 'row'}}>
             <View style={styles.cartCount}>
-              <Text style={styles.cartNumber}>8</Text>
+              <Text style={styles.cartNumber}>80</Text>
             </View>
 
             <TouchableOpacity>
