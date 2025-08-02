@@ -12,6 +12,11 @@ const ProductCardView = () => {
                 style={styles.image}/>
 
             </View>
+            <View style={styles.details}>
+                <Text style={styles.title} numberOfLines={1}>Product</Text>
+                <Text style={styles.title}>Product</Text>
+                <Text style={styles.title}>Product</Text>
+            </View>
         </View>
     </TouchableOpacity>
   )
