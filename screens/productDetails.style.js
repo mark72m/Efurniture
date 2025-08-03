@@ -53,7 +53,31 @@ const styles = StyleSheet.create({
     },
     ratingText: {
         color: COLORS.gray,
-        fontFamily: "medium"
+        fontFamily: "medium",
+        paddingHorizontal: SIZES.xSmall
+    },
+    descriptionWrapper: {
+        marginTop: SIZES.large*2,
+        marginHorizontal: SIZES.large
+    },
+    description: {
+        fontFamily: "medium",
+        fontSize: SIZES.large - 2
+    },
+    descText: {
+        fontFamily: "regular",
+        fontSize: SIZES.small,
+        textAlign: "justify",
+        marginBottom: SIZES.small
+    },
+    location: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        backgroundColor: COLORS.secondary,
+        marginHorizontal: 12,
+        padding: 5,
+        borderRadius: SIZES.large
     },
     title: {
         fontFamily: "bold",
