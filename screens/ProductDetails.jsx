@@ -1,14 +1,18 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
+import styles from './productDetails.style'
+import { Ionicons } from '@expo/vector-icons';
 
-const ProductDetails = () => {
+const ProductDetails = ({navigation}) => {
   return (
-    <View>
-      <Text>ProductDetails</Text>
+    <View style={styles.container}>
+      <View style={styles.upperRow}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Ionicons name='chevron-back-circle' size={30} />
+        </TouchableOpacity>
+      </View>
     </View>
   )
 }
 
 export default ProductDetails
-
-const styles = StyleSheet.create({})
