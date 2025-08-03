@@ -5,9 +5,13 @@ import { COLORS } from '../../constants'
 
 const Carousel = () => {
     const slides = [
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/cb2e64a8-ad4c-4d45-b58b-b0c7e11b6bb4-fn1.jpg",
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/b1f6d96d-3297-4270-ba65-657dc2bc0236-fn2.jpg",
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5d445b91-c01a-4564-8ff8-c27c2b88ea5b-fn7.png"
+        "https://media.istockphoto.com/id/1147156390/photo/real-photo-of-a-rattan-garden-furniture-set-with-lamps-and-table-in-the-background.jpg?s=612x612&w=0&k=20&c=FlNSP_HjvtQay0PCJlvKL7jnPFSD4O5Vp7AsGZDhhwk=",
+        "https://patiocomfort.ca/wp-content/uploads/2024/02/Patio-Comfort_The-Patios-Journey-From-Function-to-Fashion.jpg",
+        "https://shopatzing.com/product_images/uploaded_images/istock-patio-furniture-trends-2025.jpg",
+        "https://media.istockphoto.com/id/1208657520/photo/garden-patio-decorated-with-scandinavian-wicker-sofa-and-coffee-table.jpg?s=612x612&w=0&k=20&c=CPqEZBiSj94NEtk1_KhD28HuSevF7oRd2DTiLGGbR1I=",
+        "https://cottage-culture.ca/userContent/images/E-Commerce/Collections/Pamir/84253%20Callisto_lounge_Virgo_Tonar_Pamir_4%20web_84253%20DS.jpg",
+        "https://hubfurniture.com.eg/media/mageplaza/blog/post/resize/400x/s/h/shutterstock_1092560108.jpg",
+        "https://res.cloudinary.com/fjdoors/image/upload/v1711058399/Showarangeoflargeoutdoorfurniturecoversinvariouscolorsandmaterialsneatlyfittedonpatiosetsagainstalushgardenbackdropportrayingaffordabilityandqualit_bk0pqe.webp"
     ]
   return (
     <View style={styles.carouselContainer}>
