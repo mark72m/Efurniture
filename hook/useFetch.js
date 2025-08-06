@@ -22,10 +22,15 @@ const useFetch = () => {
     }
 
     useEffect(() => {
-        useEffect
+        fetchData();
     }, []);
 
-  return {data, isLoading}
+    const refetch = () => {
+        setIsLoading(true);
+        fetchData();
+    }
+
+  return {data, isLoading, error, refetch}
 }
 
 export default useFetch
