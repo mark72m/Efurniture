@@ -15,11 +15,13 @@ const ProductRow = () => {
                 <Text>Something went wrong!!!</Text>
             ) : (
                 <FlatList
-                    data={data}
-                    keyExtractor={(item) => item._id}
+                    data={data}                    
+                    keyExtractor={(item) => item.id}
                     renderItem={({ item }) => <ProductCardView item={item} />}
                     horizontal
-                    contentContainerStyle={{ columnGap: SIZES.medium }} />
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={{ columnGap: SIZES.medium }}
+                />
             )}
         </View>
     )

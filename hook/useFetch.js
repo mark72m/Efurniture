@@ -12,12 +12,12 @@ const useFetch = () => {
 
         try {
             const response = await axios.get('http://localhost:3000/api/products/');
-            setData(response.data);
-            setIsLoading(false);
+            setData(response.data)
+            setIsLoading(false)
         } catch (error) {
-            setError(error);
+            setError(error)
         } finally {
-            setIsLoading(false);
+            setIsLoading(false)
         }
     }
 
@@ -26,7 +26,7 @@ const useFetch = () => {
     }, []);
 
     const refetch = () => {
-        setIsLoading(true);
+        setIsLoading(true)
         fetchData();
     }
 
