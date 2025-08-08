@@ -5,6 +5,7 @@ import ProductCardView from './ProductCardView'
 import styles from './productRow.style'
 import useFetch from '../../hook/useFetch'
 
+
 const ProductRow = () => {
     const { data, isLoading, error } = useFetch();
     return (
@@ -16,7 +17,7 @@ const ProductRow = () => {
             ) : (
                 <FlatList
                     data={data}                    
-                    keyExtractor={(item) => item.id}
+                    keyExtractor={(item) => item._id}
                     renderItem={({ item }) => <ProductCardView item={item} />}
                     horizontal
                     showsHorizontalScrollIndicator={false}
